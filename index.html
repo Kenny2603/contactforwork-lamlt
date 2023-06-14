@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="center" id="window">
+      <div id="main">
+        <div class="center" id="cover">
+          <div id="bg-cover"></div>
+          <div id="avatar">
+            <img
+              src="https://scontent.fhan16-1.fna.fbcdn.net/v/t1.6435-9/137041087_1602859066768584_1230337913669387835_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_ohc=HzmOCz4SJG0AX_FjDMI&_nc_ht=scontent.fhan16-1.fna&oh=00_AfA3ngPapCISimIRuajDGMwHi1InP04N_NHf_iSiCWnMzQ&oe=64B0C263"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="content">
+          <p id="name">
+            Lê Trọng Lâm
+            <i class="fas fa-check-circle"></i>
+          </p>
+          <div class="center">
+            <span class="badge">
+              <i class="fas fa-code"></i>
+              Designer and developer
+            </span>
+          </div>
+          <p id="bio">
+            "Qua một ngày, chúng ta học thêm được gì mới? Hay trờ thành bản sao
+            của ngày hôm qua?"
+          </p>
+          <div class="center">
+            <div class="border"></div>
+            <p id="contact-text">Contact for work</p>
+          </div>
+          <div class="center boxs" id="boxs">
+            <!-- Facebook -->
+            <div class="box facebook">
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon"><i class="fab fa-facebook"></i></div>
+                </div>
+                <div
+                  class="col-10"
+                  onclick='openlink("https://www.facebook.com/lamcutevjppro.2603/")'
+                >
+                  <a
+                    href="https://www.facebook.com/lamcutevjppro.2603/"
+                    class="detail"
+                    target="_blank"
+                    >Facebook</a
+                  >
+                  <p class="linked">Lê Trọng Lâm</p>
+                </div>
+              </div>
+            </div>
+            <!-- Messenger -->
+            <div class="box messenger">
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon">
+                    <i class="fab fa-facebook-messenger"></i>
+                  </div>
+                </div>
+                <div
+                  class="col-10"
+                  onclick='openlink("https://www.messenger.com/t/100011335196934")'
+                >
+                  <a
+                    target="_blank"
+                    href="https://www.messenger.com/t/100011335196934"
+                    class="detail"
+                    >Messenger</a
+                  >
+                  <p class="linked">Lê Anh Đức</p>
+                </div>
+              </div>
+            </div>
+            <!-- Zalo -->
+            <div class="box zalo">
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon">
+                    <div class="div-logo zalo-icon"></div>
+                  </div>
+                </div>
+                <div
+                  class="col-10"
+                  onclick='openlink("https://www.zalo.me/0348067629/");'
+                >
+                  <a
+                    target="_blank"
+                    href="https://www.zalo.me/0348067629/"
+                    class="detail"
+                    >Zalo</a
+                  >
+                  <p class="linked">Lê Trọng Lâm</p>
+                </div>
+              </div>
+            </div>
+            <!-- Phone -->
+            <div class="box github">
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon">
+                    <i class="fab fa-github"></i>
+                  </div>
+                </div>
+                <div class="col-10" onclick='openlink("tel:+84348067629");'>
+                  <a
+                    target="_blank"
+                    href="https://github.com/LamVjpPro"
+                    class="detail"
+                    >GitHub</a
+                  >
+                  <p class="linked"></p>
+                </div>
+              </div>
+            </div>
+            <!-- Momo -->
+            <div class="box momo">
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon">
+                    <i class="fab fa-instagram"></i>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/lamm_lt2603/"
+                    class="detail"
+                    >Instagram</a
+                  >
+                  <p class="linked"></p>
+                </div>
+              </div>
+            </div>
+            <!-- MBBank -->
+            <div class="box mbbank">
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon">
+                    <div class="div-logo mbbank-icon"></div>
+                  </div>
+                </div>
+                <div class="col-10" onclick='copytext("00260320038888");'>
+                  <p class="detail">MB: 00260320038888</p>
+                  <p class="linked"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p id="bio">
+            Copyright ©
+            <a href="https://www.facebook.com/lamcutevjppro.2603/"
+              >Lê Trọng Lâm</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="bg"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
