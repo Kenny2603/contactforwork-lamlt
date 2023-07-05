@@ -305,4 +305,13 @@ a:hover {
     color: greenyellow !important;
 }
 
+/* responsive */
+
+@media (max-width: 768px) {
+    #main {
+        width: auto;
+        height:auto;
+    }
+}
+
 
